@@ -34,12 +34,14 @@ figure {
   position: relative;
   float: none;
   border: 1px solid lightgrey;
-  background-color: yellow;
 }
 
 .action-like{
   color: red;
-  position: relative;
+  position: absolute;
+  bottom: -21%;
+  right: 1%;
+  font-size: 20px;
 }
 
 .action-watch-later {
@@ -67,9 +69,9 @@ h1.film-title {
 .film-details {
     width: 69%;
     display: inline-block;
-    background-color: rebeccapurple;
     position: absolute;
     top: 5%;
+    height: 76%;
 }
 
 .action-like {text-align: right;}
