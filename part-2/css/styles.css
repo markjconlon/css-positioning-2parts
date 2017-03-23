@@ -17,13 +17,59 @@ body {
 
 img {
   max-width: 100%;
+  padding: 2%;
 }
 
 figure {
   margin: 0;
+  /* position: relative; */
+  display: inline-block;
+  width: 30%;
+  clear: left;
 }
 
 .film {
-  width: 50%;
+  width: 90%;
   margin: 40px auto;
+  position: relative;
+  float: none;
+  border: 1px solid lightgrey;
+  background-color: yellow;
 }
+
+.action-like{
+  color: red;
+  position: relative;
+}
+
+.action-watch-later {
+  position: absolute;
+  z-index: 1;
+  top: 2%;
+  left: 26%;
+  margin: 0;
+  color: red;
+}
+
+figure.film-poster {
+}
+
+p.film-description {
+    display: inline-block;
+    font-size: 23px;
+}
+
+h1.film-title {
+    margin: 0;
+    font-size: 40px;
+}
+
+.film-details {
+    width: 69%;
+    display: inline-block;
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 5%;
+}
+
+.action-like {text-align: right;}
